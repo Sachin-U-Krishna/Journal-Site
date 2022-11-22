@@ -1693,3 +1693,11 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
+
+#contact{
+  margin: 5em;
+}
+
+.contact-nav{
+  background-color: rgba(21, 34, 43, 0.85);;
+}
