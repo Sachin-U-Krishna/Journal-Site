@@ -487,8 +487,27 @@ h6 {
   border: 2px solid #ff4a17;
 }
 
+.btn-get-started-hm{
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 35px 10px 35px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #ff4a17;
+  border: 2px solid #ff4a17;
+}
+
 #hero .btn-get-started:hover {
   border-color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-get-started-hm:hover {
+  border-color: #ff4a17;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -1692,4 +1711,16 @@ section {
 
 #footer .credits a {
   transition: 0.3s;
+}
+
+/* My Changes */
+
+.hm_hglt_text {
+  font-weight: bold;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.hm_hglt_text:hover{
+  color: #ff8754;
 }
