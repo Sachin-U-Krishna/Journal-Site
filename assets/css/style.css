@@ -1856,4 +1856,9 @@ section {
 
 }
 
-
+@media (max-width: 576px) {
+  #contact{
+    margin-bottom: 0;
+    padding-bottom: 1vh;
+  }
+}
