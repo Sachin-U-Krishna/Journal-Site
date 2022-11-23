@@ -697,6 +697,7 @@ section {
 
 .section-title {
   padding-bottom: 40px;
+  width: max-content;
 }
 
 .section-title h2 {
