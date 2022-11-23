@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Sign In | Technova</title>
+    <title>Article Submission | Technova</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -77,8 +77,8 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero_about">
     <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
-        <h1>Sign In</h1>
-<!--        <h2 class="hero_orange" style="color: #ff4a17; font-weight: bold">Learn More About Us</h2>-->
+        <h1>Article Submission</h1>
+        <!--        <h2 class="hero_orange" style="color: #ff4a17; font-weight: bold">Learn More About Us</h2>-->
     </div>
 </section><!-- End Hero -->
 
@@ -89,41 +89,91 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Sign In</h2>
-                <p>Welcome To Technova</p>
+                <h2>Article Submission</h2>
+                <p>Fill the Form to Submit the Article</p>
             </div>
 
-                <div class="col-lg-12 mt-4 mt-lg-0">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="col-md-12 form-group mt-3 mt-md-0">
-                                <label for="email" class="my-3">Email Address</label>
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
+            <div class="col-lg-12 mt-4 mt-lg-0">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <label for="fname" class="my-3">First Name</label>
+                            <input type="text" class="form-control" name="fname" id="fname" placeholder="Your First Name" required>
                         </div>
-                        <div class="form-group mt-3">
-                            <label for="password" class="my-3">Password</label>
-                            <input type="password" class="form-control" name="password" id="password" placeholder="password" required>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <label for="lname" class="my-3">Last Name</label>
+                            <input type="text" class="form-control" name="lname" id="lname" placeholder="Your Last Name" required>
                         </div>
-                        <div class="form-group mt-3 d-flex justify-content-end">
-                            <a href="#">Forgot Password?</a>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <label for="email" class="my-3">Email Address</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email Address" required>
                         </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <label for="phone" class="my-3">Phone Number</label>
+                            <input type="number" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" required>
                         </div>
-                        <div class="text-center">
-                            <button type="submit">Sign In</button>
+                        <div class="col-md-12 form-group mt-3 mt-md-0">
+                            <label for="country" class="my-3">Country</label>
+                            <select name="country" id="country" class="form-control form-select">
+                                <option value="#">Select Country</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                            </select>
                         </div>
-                        <div class="form-group mt-3">
-                            <hr>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <label for="articleTitle" class="my-3">Article Title</label>
+                            <input type="text" class="form-control" name="articleTitle" id="articleTitle" placeholder="Article Title" required>
                         </div>
-                        <div class="form-group mt-3">
-                            <span>Don't have an account?<a href="#">  Sign Up!</a></span>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <label for="CorrespondingAuthor" class="my-3">Corresponding Author</label>
+                            <input type="text" class="form-control" name="CorrespondingAuthor" id="CorrespondingAuthor" placeholder="Corresponding Author" required>
                         </div>
-                    </form>
-                </div>
+                        <div class="col-md-12 form-group mt-3 mt-md-0">
+                            <label for="typeArticle" class="my-3">Type of Article</label>
+                            <select name="typeArticle" id="typeArticle" class="form-control form-select">
+                                <option value="#">Select Type Of Article</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12 form-group mt-3 mt-md-0">
+                            <label for="Journals" class="my-3">Journals</label>
+                            <select name="Journals" id="Journals" class="form-control form-select">
+                                <option value="#">Select Journals</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                                <option value="#">Sample Option</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <label for="fileUpload" class="my-3">File Upload <br> <span style="font-size: 0.8em">(Note: Attach all files one at a time)</span></label>
+                            <input type="file" class="form-control" name="fileUpload" id="fileUpload" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <label for="captcha" class="my-3">Captcha<br> <span style="font-size: 0.8em">(space for captcha)</span></label>
+                            <input type="text" class="form-control" name="captcha" id="captcha" placeholder="captcha" required>
+                        </div>
+                    </div>
+
+                    <div class="my-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit">Submit</button>
+                        <button type="submit">Clear</button>
+                    </div>
+                </form>
+            </div>
 
         </div>
     </section>
@@ -159,7 +209,7 @@
                 <div class="offset-lg-1 col-lg-2 col-md-6 footer-links">
                     <h4>Categories</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Journals</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="journal-home.html">Journals</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Proceedings</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">SIGs</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Conferences</a></li>
