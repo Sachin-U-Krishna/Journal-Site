@@ -1884,3 +1884,9 @@ section {
     padding-bottom: 0.7vh !important;
   }
 }
+
+.reg-pass-list {
+  font-size: 0.7em;
+  margin-top: 10px;
+
+}

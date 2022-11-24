@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sign Up | Technova</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/technova/technova_logo.png" rel="icon">
+  <link href="assets/img/technova/technova_logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top ">
+  <div class="container d-flex align-items-center justify-content-between">
+
+    <h1 class="logo"><a href="index.html">Technova</a></h1>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link " href="about.html">About</a></li>
+        <!--          <li><a class="nav-link scrollto" href="#services">Services</a></li>-->
+        <!--          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>-->
+        <!--          <li><a class="nav-link scrollto" href="#team">Team</a></li>-->
+        <li class="dropdown"><a href="journal-home.html"><span>Journals</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="journal-info.html">Journal Information</a></li>
+            <li><a href="aim_scope.html">Aim and Scope</a></li>
+            <li><a href="editorial-board.html">Editorial Board</a></li>
+            <li><a href="guidelines_author.html">Guidelines for Authors</a></li>
+            <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="guidelines.html">Guidelines for Reviewers</a></li>
+                <li><a href="article-submit.html">Submission</a></li>
+                <li><a href="archive.html">Archive</a></li>
+                <li><a href="registration.html">Sign Up!</a></li>
+                <li><a href="sign-in.html">Sign In!</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+        <!--          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>-->
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </div>
+</header><!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero_about">
+  <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+    <h1>Sign Up</h1>
+    <!--        <h2 class="hero_orange" style="color: #ff4a17; font-weight: bold">Learn More About Us</h2>-->
+  </div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+  <!-- ======= Signin Section ======= -->
+  <section class="contact">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Sign Up</h2>
+        <p>Register Using The Form Below</p>
+      </div>
+
+      <div class="col-lg-12 mt-4 mt-lg-0">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <label for="fname" class="my-3">First Name</label>
+              <input type="text" class="form-control" name="fname" id="fname" placeholder="Your First Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <label for="lname" class="my-3">Last Name</label>
+              <input type="text" class="form-control" name="lname" id="lname" placeholder="Your Last Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <label for="username" class="my-3">Username</label>
+              <input type="text" class="form-control" name="username" id="username" placeholder="Your username" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <label for="email" class="my-3">Email Address</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email Address" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <label for="password" class="my-3">Password</label>
+              <input type="password" class="form-control" name="password" id="password" placeholder="create a password" required>
+              <span>
+                <ul class="reg-pass-list">
+                  <li>Your password can't be too similar to your other personal information.</li>
+                  <li>Your password must contain at least 8 characters.</li>
+                  <li>Your password can't be a commonly used password</li>
+                  <li>Your password can't be entirely numeric</li>
+                </ul>
+              </span>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <label for="conpass" class="my-3">Confirm Password</label>
+              <input type="password" class="form-control" name="conpass" id="conpass" placeholder="Enter the same password as before" required>
+            </div>
+
+          </div>
+
+          <div class="text-center mt-3">
+            <button type="submit">Sign Up!</button>
+          </div>
+          <div class="form-group mt-3">
+            <hr>
+          </div>
+          <div class="form-group mt-3">
+            <span>Already have an account?<a href="#">  Sign in!</a></span>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Signin Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-info">
+            <h3>Technova</h3>
+            <p>
+              Blank Street <br>
+              ########, India<br><br>
+              <strong>Phone:</strong> +91 9XXXXXXXXX<br>
+              <strong>Email:</strong> technova@sample.com<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="offset-lg-1 col-lg-2 col-md-6 footer-links">
+          <h4>Categories</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="journal-home.html">Journals</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Proceedings</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">SIGs</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Conferences</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">People</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>About</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="about.html">About Technova Publications</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Subscription Information</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Author Guidelines</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Join</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Join as Managing Editor</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Join as Associate Editor</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Join as Area Editor</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Join as Reviewer</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Subscribe to Publications</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="credits">
+      <img src="assets/img/technova/technova_logo.png" alt="" width="10%">
+    </div>
+    <div class="copyright">
+      &copy; Copyright <strong><span>Technova</span></strong>. All Rights Reserved
+    </div>
+
+  </div>
+</footer><!-- End Footer -->
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</body>
+
+</html>
