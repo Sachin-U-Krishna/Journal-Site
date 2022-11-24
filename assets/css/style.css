@@ -1894,3 +1894,9 @@ section {
 .sub-to-news {
   width: 35%;
 }
+
+
+.sub-pub{
+  display: grid;
+  place-items: center;
+}
